@@ -11,29 +11,30 @@
 </head>
 
 <body>
-    <!-- Nosso cabeçalho -->
+    <!-- O Header faz parte da semântica, de criar a "cabeçalho" do site -->
     <header class="header-menu">
-        <!-- Onde vão ficar os links de acesso da pasta -->
+        <!-- O Nav é a barra de navegação do site, quando entrarmos no CSS, tudo fará sentido -->
         <nav>
-            <!-- Nossa lista de links -->
+            <!-- O Ul e o OL são as listas -->
             <ul class="lista-menu">
                 <li>
                     <a href="#formacao">Formação</a>
                 </li>
                 <li>
-                    <a href="#portfolio">Portfólio</a>
+                    <a href="#blog">Blog</a>
                 </li>
                 <li>
                     <a href="#contatos">Contatos</a>
                 </li>
             </ul>
-
         </nav>
     </header>
-    <!-- Tag principal que descreve o escopo principal do nosso site -->
-    <main >
-        <!-- A seção do meu site -->
+
+    <!-- O Main faz parte da semântica, de criar o "corpo" do site -->
+    <main>
+        <!-- O Section faz parte da semântica, de criar e separar as sessões do nosso site -->
         <section class="principal">
+            <!-- O article quer dizer que estamos criando um trecho do nosso site, que é independente de outros trechos/partes do nosso site -->
             <article class="container subcontainer-principal">
                 <div>
                     <img class="foto" src="img/foto-perfil.png" alt="Perfil de Mulher negra">
@@ -54,7 +55,7 @@
         <section>
             <article class="container article-lista">
                 <div>
-                    <h3  id="formacao" class="topico-principal">Formação</h3>
+                    <h3 id="formacao" class="topico-principal">Formação</h3>
                 </div>
                 <div class="lista-item">
                     <ul>
@@ -62,12 +63,20 @@
                             <p class="lista-titulo">Ciclo Formativo PretaLab</p>
                             <a href="https://www.pretalab.com/formacao" target="_blank" class="lista-local">PretaLab /
                                 Olabi</a>
-                            <p class="lista-descricao">Criado em 2020, o Ciclo tem como objetivo, qualificar mulheres negras nas áreas de Inovação e Tecnologia. Pensando na necessidade de inserção de mulheres negras, indígenas, cis/trans na tecnologia, o Ciclo Formativo Básico da Pretalab vem com toda força para inserir mulheres na iniciativa de imergir nessa formação.</p>
+                            <p class="lista-descricao">Criado em 2020, o Ciclo tem como objetivo, qualificar mulheres
+                                negras nas áreas de Inovação e Tecnologia. Pensando na necessidade de inserção de
+                                mulheres negras, indígenas, cis/trans na tecnologia, o Ciclo Formativo Básico da
+                                Pretalab vem com toda força para inserir mulheres na iniciativa de imergir nessa
+                                formação.</p>
                         </li>
                         <li>
                             <p class="lista-titulo">Bacharelado em Ciência da Computação</p>
-                            <a href="https://portal.unicap.br/" target="_blank" class="lista-local">Universidade Católica de PE</a>
-                            <p class="lista-descricao">O Curso de Ciência da Computação da UNICAP tem como objetivo formar profissionais capazes de contribuir, eticamente, com o desenvolvimento científico e tecnológico da computação, a fim de atender às necessidades das organizações e da sociedade.</p>
+                            <a href="https://portal.unicap.br/" target="_blank" class="lista-local">Universidade
+                                Católica de PE</a>
+                            <p class="lista-descricao">O Curso de Ciência da Computação da UNICAP tem como objetivo
+                                formar profissionais capazes de contribuir, eticamente, com o desenvolvimento científico
+                                e tecnológico da computação, a fim de atender às necessidades das organizações e da
+                                sociedade.</p>
                         </li>
                     </ul>
                 </div>
@@ -77,7 +86,7 @@
         <section class="wrapper-portfolio">
             <article class="container article-lista">
                 <div>
-                    <h3 id="portfolio" class="topico-principal">Blog</h3>
+                    <h3 id="blog" class="topico-principal">Blog</h3>
                 </div>
                 <div class="lista-item">
                     <ul>
@@ -87,14 +96,20 @@
                             <a href="https://community.revelo.io/27-desenvolvedoras-brasileiras-para-se-inspirar-em-2022/"
                                 target="_blank" class="lista-local"> 27 Desenvolvedoras brasileiras para se inspirar em
                                 2022</a>
-                            <p class="lista-descricao">Destacamos aqui uma lista bem extensa de desenvolvedoras brasileiras que não apenas criam conteúdos para capacitação gratuita na área, como também promovem palestras, debates, encontros e reflexões, além de liderar comunidades que contribuem para a inclusão de mais pessoas na tecnologia - inclusive pessoas negras, trans e LGBTQIA+.</p>
+                            <p class="lista-descricao">Destacamos aqui uma lista bem extensa de desenvolvedoras
+                                brasileiras que não apenas criam conteúdos para capacitação gratuita na área, como
+                                também promovem palestras, debates, encontros e reflexões, além de liderar comunidades
+                                que contribuem para a inclusão de mais pessoas na tecnologia - inclusive pessoas negras,
+                                trans e LGBTQIA+.</p>
                         </li>
                         <li>
                             <p class="lista-titulo">GreenCoding</p>
                             <p class="subtitulo-lista">GFT</p>
-                            <a href="https://www.gft.com/br/pt/technology/greencoding"
-                                target="_blank" class="lista-local"> A nova fronteira para o desenvolvimento de software</a>
-                            <p class="lista-descricao"> Reduza o carbono com programação. E se o código também pudesse te ajudar a atingir suas metas de sustentabilidade – e melhorar a experiência de usuário no processo?</p>
+                            <a href="https://www.gft.com/br/pt/technology/greencoding" target="_blank"
+                                class="lista-local"> A nova fronteira para o desenvolvimento de software</a>
+                            <p class="lista-descricao"> Reduza o carbono com programação. E se o código também pudesse
+                                te ajudar a atingir suas metas de sustentabilidade – e melhorar a experiência de usuário
+                                no processo?</p>
                         </li>
                     </ul>
                 </div>
@@ -102,13 +117,14 @@
         </section>
     </main>
 
-    <!-- Rodapé -->
+    <!-- O Footer faz parte da semântica, de criar o rodapé do site -->
     <footer class="footer">
         <div id="contatos" class="container">
             <ul class="lista-footer">
-                <li><i class="fas fa-envelope-square estilo-icon"></i>lamenez@gmail.com</li>
-                <li><i class="fab fa-linkedin estilo-icon"></i>leila-s-menezes</li>
-                <li><i class="fab fa-github-square estilo-icon"></i>leidevsan</li>
+                <!-- aqui temos os nossos icones, dentro da nossa lista -->
+                <li><i class="fas fa-envelope-square estilo-icon"></i><a href="mailto:lamenez@gmail.com" target="_blank" class="links">lamenez@gmail.com</a></li>
+                <li><i class="fab fa-linkedin estilo-icon"></i><a href="https://www.linkedin.com/in/leila-s-menezes/" target="_blank" class="links">leila-s-menezes</a></li>
+                <li><i class="fab fa-github-square estilo-icon"></i><a href="https://github.com/leidevsan" target="_blank" class="links">leidevsan</a></li>
             </ul>
         </div>
     </footer>

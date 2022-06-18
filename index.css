@@ -1,24 +1,35 @@
 * {
+    /* define a área de margem nos quatro lados do elemento */
     margin: 0;
+    /* distância entre o conteúdo de um elemento e suas bordas */
     padding: 0;
+    /* para configurar uma ou mais das propriedades de contorno */
     outline: 0;
 }
 
 body {
+    /* Definindo a fonte de todo nosso body */
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
 li {
+    /* retirando as bolinhas das nossas listas */
     list-style: none;
 }
 
 .header-menu {
+    /* // Torna o elemento um flex container automaticamente transformando todos os seus filhos diretos em flex itens. */
     display: flex;
-    position: absolute;
+    /*Deixa o nosso header fixo*/
+    position: fixed;
+    /*Largura*/
     width: 100%;
+    /*Espaçamento dos 4 lados*/
     padding: 8px;
+    /*Espaçamento inferior*/
     padding-bottom: 32px;
+    /*Espaçamento superior*/
     padding-top: 32px;
     height: 60px;
     background-color: #724796;
@@ -32,29 +43,36 @@ li {
 
 .lista-menu {
     display: flex;
+    /*Espaçamento entre eles seja igual*/
     justify-content: space-evenly;
     width: 50%;
     align-items: center;
 }
 
+/*estilizando os itens com tag a de dentro da nossa lista*/
 .lista-menu li>a {
     color: #fff;
     font-size: 18px;
     text-decoration: inherit;
 }
 
-.principal  {
+.principal {
     height: 100vh;
     display: flex;
     background-color: #eaeaea;
 }
 
 .container {
-    margin-right: auto; /*uma margem automática para todos os lados*/
+    /*uma margem automática para todos os lados*/
+    margin-right: auto;
     margin-left: auto;
+    /*largura maxima*/
     max-width: 960px;
+    /* Espaçamento direito*/
     padding-right: 10px;
+    /*Espaçamento esquerdo*/
     padding-left: 10px;
+    /*largura*/
     width: 100%;
 }
 
@@ -65,6 +83,12 @@ li {
     align-items: center;
     text-align: center;
 
+}
+
+.foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
 
 .nome-completo {
@@ -98,7 +122,8 @@ li {
     padding: 32px;
 }
 
-.lista-item ul, li {
+.lista-item ul,
+li {
     margin-bottom: 32px;
 }
 
@@ -149,14 +174,12 @@ li {
     margin-bottom: 16px;
 }
 
-.estilo-icon{
+.estilo-icon {
     font-size: 32px;
     margin-right: 10px;
-
 }
 
-.foto {
-    width: 150px; 
-    height: 150px;
-    border-radius: 50%;
+.links {
+    text-decoration: none;
+    color: #fff;
 }
