@@ -175,8 +175,10 @@ li {
 }
 
 .estilo-icon {
+    /* tamanho do ícone */
     font-size: 32px;
-    margin-right: 10px;
+    /* espaçamento do ícone para o texto */
+    margin-right: 10px; 
 }
 
 .links {
