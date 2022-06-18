@@ -100,7 +100,7 @@ li {
 }
 
 .profissao {
-    font-size: 36;
+    font-size: 20px;
     line-height: 32px;
     color: #c6b5d5;
 }
@@ -145,7 +145,7 @@ li {
     margin-top: 5px;
     line-height: 20px;
     color: #828282;
-    font: weight 300;
+    font-weight: 300;
 }
 
 .wrapper-portfolio {
@@ -172,6 +172,8 @@ li {
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 16px;
+    display: flex;
+    align-items: center;
 }
 
 .estilo-icon {
