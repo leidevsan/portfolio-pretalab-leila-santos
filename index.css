@@ -105,7 +105,7 @@ li {
     color: #c6b5d5;
 }
 
-.article-lista {
+.lista-article {
     display: flex;
     flex-direction: column;
     margin-top: 100px;
@@ -154,7 +154,7 @@ li {
     flex-direction: column;
 }
 
-.subtitulo-lista {
+.lista-subtitulo {
     font-size: 18px;
     color: #828282;
     font-weight: 500;
