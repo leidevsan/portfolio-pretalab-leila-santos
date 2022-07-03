@@ -28,11 +28,12 @@ li {
     /*Espaçamento dos 4 lados*/
     padding: 8px;
     /*Espaçamento inferior*/
-    padding-bottom: 20px;
+    padding-bottom: 18px;
     /*Espaçamento superior*/
-    padding-top: 20px;
+    padding-top: 18px;
     height: 60px;
-    background-color: #724796;
+    background-color: #852621;
+    
 }
 
 .header-menu nav {
@@ -54,6 +55,7 @@ li {
 .lista-menu li>a {
     color: #fff;
     font-size: 18px;
+    font-weight: 500;
     text-decoration: inherit;
 }
 
@@ -88,12 +90,12 @@ li {
 .foto {
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 50%;    
 }
 
 .nome-completo {
     font-size: 36px;
-    color: #ff4dbc;
+    color: #DC4731;
     font-weight: 700;
     height: 45px;
 
@@ -103,7 +105,7 @@ li {
     font-size: 24px;
     line-height: 32px;
     height: 40px;
-    color: #c6b5d5;
+    color: black;
 }
 
 .sobre {
@@ -129,7 +131,7 @@ li {
 
 .topico-principal {
     font-size: 36px;
-    color: #ff4dbc;
+    color: #852621;
 }
 
 .lista-item {
@@ -143,13 +145,13 @@ li {
 .lista-titulo {
     margin-bottom: 5px;
     font-size: 22px;
-    color: #661e4b;
+    color: black;
     font-weight: 700;
 }
 
 .lista-local {
     font-size: 18px;
-    color: #2f80ed;
+    color: #FD7F20;
 
 }
 
@@ -157,7 +159,7 @@ li {
     font-size: 18px;
     margin-top: 5px;
     line-height: 20px;
-    color: #828282;
+    color: #3B0918;
     font-weight: 300;
 }
 
@@ -169,31 +171,33 @@ li {
 
 .lista-subtitulo {
     font-size: 18px;
-    color: #828282;
+    color: #B8390E;
     font-weight: 500;
 }
 
 .footer {
-    background-color: #724796;
-    height: 30vh;
+    background-color: #852621;
+    height: 18vh;
     display: flex;
     align-items: center;
 }
 
-.lista-footer li {
+.lista-footer {
     color: #fff;
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 16px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .estilo-icon {
     /* tamanho do ícone */
-    font-size: 32px;
+    font-size: 30px;
     /* espaçamento do ícone para o texto */
     margin-right: 10px;
+    
 }
 
 .links {
