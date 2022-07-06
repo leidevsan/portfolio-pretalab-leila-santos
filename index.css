@@ -90,15 +90,15 @@ li {
 .foto {
     width: 200px;
     height: 200px;
-    border-radius: 50%;    
+    border-radius: 50%;
+    
 }
 
 .nome-completo {
-    font-size: 36px;
+    font-size: 34px;
     color: #DC4731;
     font-weight: 700;
     height: 45px;
-
 }
 
 .profissao {
@@ -111,6 +111,7 @@ li {
 .sobre {
     font-size: 20px;
     line-height: 32px;
+    padding-top: 30px;
 }
 
 .lista-disciplinas {
@@ -189,7 +190,7 @@ li {
     margin-bottom: 16px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-evenly;
 }
 
 .estilo-icon {
@@ -203,4 +204,13 @@ li {
 .links {
     text-decoration: none;
     color: #fff;
+}
+
+@media all and (max-width: 768px) {
+    .header-menu {
+        visibility: hidden;
+    }
+    .foto, .nome-completo, .profissao {
+        padding-bottom: 30px;
+    }
 }
