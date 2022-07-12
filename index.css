@@ -114,12 +114,11 @@ li {
     padding-top: 30px;
 }
 
-.lista-disciplinas {
+.lista-tecnologias {
     color: black;
     font-size: 36px;
     display: flex;
-    align-items: center;
-    
+    align-items:center;
 }
 
 .lista-article {
