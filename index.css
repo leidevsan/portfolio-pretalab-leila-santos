@@ -18,11 +18,12 @@ li {
     list-style: none;
 }
 
+
 .header-menu {
     /* // Torna o elemento um flex container automaticamente transformando todos os seus filhos diretos em flex itens. */
     display: flex;
     /*Deixa o nosso header fixo*/
-    position: fixed;
+    position: absolute;
     /*Largura*/
     width: 100%;
     /*Espaçamento dos 4 lados*/
